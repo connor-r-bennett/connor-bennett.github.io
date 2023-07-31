@@ -42,7 +42,7 @@
     ----------------------------
 */
 body {
-  font-family: "Lato", sans-serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: 16px;
 }
 body.active {
@@ -112,7 +112,7 @@ header li {
 }
 header a {
   display: block;
-  color: #bfbeba;
+  color: black;
   padding: 10px;
 }
 header a:hover {
@@ -143,7 +143,7 @@ header.sticky {
   position: fixed;
   right: 15px;
   top: 10px;
-  color: #f0d69c;
+  color: white;
   font-size: 1.5em;
   z-index: 20;
   padding: 0 7px;
@@ -155,7 +155,7 @@ header.sticky {
   display: none;
   text-align: right;
   width: 100%;
-  background: #f8e3a3;
+  background: white;
   font-size: 1.5em;
   padding-right: 15px;
   padding-top: 10px;
@@ -225,7 +225,7 @@ footer {
   color: #fff;
   padding: 15px 25px;
   border: 3px solid #fff;
-  border-radius: 30px;
+  border-radius: 20px;
   transition: 0.5s ease all;
 }
 .btn-rounded-white:hover {
@@ -299,6 +299,12 @@ footer {
 }
 #lead-content h1 {
   color: #fff;
+  text-shadow:
+  -1px -1px 0 black,
+  1px -1px 0 black,
+  -1px 1px 0 black,
+  1px 1px 0 black;
+
   font-weight: 900;
   font-size: 5em;
   text-transform: uppercase;
@@ -307,6 +313,7 @@ footer {
 }
 #lead-content h2 {
   color: white;
+
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px;
@@ -615,8 +622,9 @@ footer {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: #b0a574;
-  background: #e4e4ea;
+  color: black;
+  background:#b0a574a9;
+  border-radius: 10px;
   list-style: none;
   cursor: default;
   font-size: 1.2em;
