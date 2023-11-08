@@ -378,7 +378,7 @@ footer {
   border-bottom: 1px solid #dcd9d9;
 }
 #about h2 {
-  margin-left: 5rem;
+  margin-left: 10rem;
   color: #b0a574;
 }
 #about p {
@@ -388,7 +388,9 @@ footer {
 
 #about img {
   padding: 10px 15px;
-  border-radius: 7rem;
+  left: -19rem;
+  border-radius: 12rem;
+  max-width: 350px;
 }
 
 /*
