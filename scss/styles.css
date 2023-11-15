@@ -390,7 +390,7 @@ footer {
   padding: 10px 15px;
   left: -19rem;
   border-radius: 12rem;
-  max-width: 350px;
+  max-height: 20rem;
 }
 
 /*
@@ -548,6 +548,42 @@ footer {
     ----- 8. Project Styles -----
     -------------------------------
 */
+
+/* repl */
+.programs-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  text-align: center;
+  padding-top: 20px;;
+}
+
+#repl-head{
+  color: #b0a574;
+  margin-bottom: 500px;
+  left:43%;
+}
+
+.iframe-container {
+  padding: 1rem; /* Adjust the padding as needed */
+}
+
+#inner-programs-cont {
+  width: 400px; /* Set a fixed width for each iframe */
+  flex: 0 0 auto; /* Prevent flex item from growing, shrinking, or basis */
+}
+
+#repl-embed-time, #repl-embed-snake, #repl-embed-bst {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  padding: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+
 #projects {
   padding: 50px 15px;
   border-bottom: 1px solid #dcd9d9;
